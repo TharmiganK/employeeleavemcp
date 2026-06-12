@@ -1,0 +1,10 @@
+schemaVersion: "1.2"
+endpoints:
+    - name: mcp_service
+      displayName: MCP Service
+      service:
+        basePath: /
+        port: 8083
+      type: REST
+      networkVisibilities:
+        - Public
