@@ -1,0 +1,9 @@
+[package]
+org = "demoexonn"
+name = "employeeleavemcp"
+version = "0.1.0"
+distribution = "2201.13.3"
+title = "EmployeeInfoMCP"
+
+[build-options]
+sticky = true
