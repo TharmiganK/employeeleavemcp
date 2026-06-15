@@ -12,7 +12,7 @@ listener mcp:Listener mcpListener = new (listenTo = 8083, http1Settings = {
         version: "1.0.0"
     }
 }
-service mcp:Service /employeeData on mcpListener {
+service mcp:Service /mcp on mcpListener {
 
     # "Returns the authenticated employee name and the number of PTOs the employee has already taken"
     #
